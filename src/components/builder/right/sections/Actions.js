@@ -28,7 +28,7 @@ const Actions = ({ id }) => {
 
   const getSharableUrl = () => {
     const shareId = state.id;
-    return `https://rxresu.me/r/${shareId}`;
+    return `https://reactiveresumemaster.gatsbyjs.io/r/${shareId}`;
   };
 
   const handleOpenLink = () => {
