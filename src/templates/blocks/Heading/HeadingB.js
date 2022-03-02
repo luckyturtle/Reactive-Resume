@@ -5,15 +5,15 @@ const HeadingB = ({ children }) => {
   const { data } = useContext(PageContext);
 
   return (
-    <h6
-      className="mb-2 border-b-2 pb-1 font-bold uppercase tracking-wide text-sm"
+    <h1
+      className="pb-1 mb-2 text-sm font-bold tracking-wide uppercase border-b-2"
       style={{
         color: data.metadata.colors.primary,
         borderColor: data.metadata.colors.primary,
       }}
     >
       {children}
-    </h6>
+    </h1>
   );
 };
 
