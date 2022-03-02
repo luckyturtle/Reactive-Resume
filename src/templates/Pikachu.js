@@ -43,7 +43,7 @@ const Pikachu = ({ data }) => {
           {data.profile.photograph && (
             <div className="self-center col-span-4">
               <img
-                className="w-48 h-48 rounded-full mx-auto object-cover"
+                className="object-cover w-48 mx-2 rounded-full h-29"
                 src={data.profile.photograph}
                 alt={data.profile.firstName}
               />
@@ -56,13 +56,13 @@ const Pikachu = ({ data }) => {
             }`}
           >
             <div
-              className="h-48 rounded flex flex-col justify-center"
+              className="flex flex-col justify-center rounded h-29"
               style={{
                 backgroundColor: data.metadata.colors.primary,
                 color: data.metadata.colors.background,
               }}
             >
-              <div className="flex flex-col justify-center mx-8 my-6">
+              <div className="flex flex-col justify-center mx-3 my-2">
                 <h1 className="text-3xl font-bold leading-tight">
                   {data.profile.firstName} {data.profile.lastName}
                 </h1>
@@ -73,7 +73,7 @@ const Pikachu = ({ data }) => {
                 {data.objective.body && (
                   <div>
                     <hr
-                      className="my-5 opacity-25"
+                      className="my-3 opacity-25"
                       style={{ borderColor: data.metadata.colors.background }}
                     />
 
