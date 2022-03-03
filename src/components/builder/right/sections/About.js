@@ -35,7 +35,7 @@ const About = ({ id }) => {
 
         <div className="mt-4 flex">
           <a
-            href="https://www.buymeacoffee.com/AmruthPillai"
+            href="https://www.buymeacoffee.com/Ninja137"
             rel="noreferrer"
             target="_blank"
           >
@@ -51,7 +51,7 @@ const About = ({ id }) => {
 
         <div className="mt-4 flex">
           <a
-            href="https://github.com/AmruthPillai/Reactive-Resume/issues/new"
+            href="https://github.com/ninja-1337/Reactive-Resume"
             rel="noreferrer"
             target="_blank"
           >
@@ -66,8 +66,8 @@ const About = ({ id }) => {
         <p className="leading-loose">{t('builder.about.appreciate.text')}</p>
 
         <div className="mt-4 flex">
-          <a href="https://amruthpillai.com" rel="noreferrer" target="_blank">
-            <Button icon={FaExternalLinkAlt}>amruthpillai.com</Button>
+          <a href="https://evangelou.me" rel="noreferrer" target="_blank">
+            <Button icon={FaExternalLinkAlt}>evangelou.me</Button>
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@ const About = ({ id }) => {
 
         <div className="mt-4 flex">
           <a
-            href="https://github.com/AmruthPillai/Reactive-Resume"
+            href="https://github.com/ninja-1337/Reactive-Resume"
             rel="noreferrer"
             target="_blank"
           >
@@ -93,7 +93,7 @@ const About = ({ id }) => {
       <div className="my-4 text-center opacity-50 text-sm flex flex-col items-center justify-center">
         <Trans t={t} i18nKey="builder.about.footer">
           A
-          <a href="https://amruthpillai.com" rel="noreferrer" target="_blank">
+          <a href="https://evangelou.me" rel="noreferrer" target="_blank">
             B
           </a>
         </Trans>
