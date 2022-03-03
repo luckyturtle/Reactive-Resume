@@ -60,7 +60,7 @@ const ExportModal = () => {
     const data = `data:text/json;charset=utf-8,${encodeURIComponent(
       JSON.stringify(backupObj, null, '\t'),
     )}`;
-    download(data, `RxResume-${state.id}.json`, 'text/json');
+    download(data, `Resume-${state.id}.json`, 'text/json');
   };
 
   return (
