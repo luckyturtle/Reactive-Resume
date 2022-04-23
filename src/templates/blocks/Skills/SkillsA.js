@@ -15,7 +15,7 @@ const SkillsA = () => {
   return safetyCheck(data.skills) ? (
     <div>
       <Heading>{data.skills.heading}</Heading>
-      <div className="grid grid-cols-2 gap-y-2 gap-x-4">
+      <div className="grid grid-cols-2 gap-y-2 gap-x-3">
         {data.skills.items.map((x) => isItemVisible(x) && SkillItem(x))}
       </div>
     </div>
